@@ -1,0 +1,74 @@
+.special-offer {
+    padding: 1em;
+}
+
+.special-offer__titulo {
+    border-bottom: 3px solid var(--laranja-salmão);
+    color: var(--azul-escuro);
+    font-family: var(--fonte-playfair-display);
+    font-size: 40px;
+    width: 60%;
+    max-width: max-content;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+.special-offer__texto {
+    color: var(--cinza);
+    font-family: var(--fonte-rubik);
+    font-size: 18px;
+    padding-bottom: 5em;
+}
+
+.special-offer__img {
+    width: 100%;
+    border-radius: 26px 26px 0 0;
+}
+
+.special-offer__detalhes {
+    border-radius: 0 0 26px 26px;
+    background-color: var(--creme);
+    padding: 1.5em 1.5em 2.5em 1.5em;
+}
+
+.special-offer__detalhes__titulo {
+    font-family: var(--fonte-rubik);
+    color: var(--cinza);
+    font-size: 28px;
+}
+
+.special-offer__detalhes__img {
+    padding: 0.5em 0;
+}
+
+.special-offer__detalhes__texto {
+    font-family: var(--fonte-rubik);
+    color: var(--azul-escuro);
+}
+
+.special-offer__detalhes__preço {
+    font-family: var(--fonte-rubik);
+    font-size: 18px;
+    color: var(--cinza);
+    padding: 1em 0 2.5em 0;
+}
+
+.special-offer__detalhes__preço-valor {
+    font-family: var(--fonte-rubik);
+    font-size: 32px;
+    color: var(--laranja-salmão);
+}
+
+.botão-detalhes {
+    font-family: var(--fonte-rubik);
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--laranja-salmão);
+    border-radius: 12px;
+    padding: 1em 1.5em;   
+}
+
+.botão-detalhes:active {
+    background-color: #921b00;
+}

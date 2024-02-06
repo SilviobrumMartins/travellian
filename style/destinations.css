@@ -1,0 +1,56 @@
+.destinations {
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.destinations__titulo {
+    border-bottom: 3px solid var(--laranja-salmão);
+    color: var(--azul-escuro);
+    font-family: var(--fonte-playfair-display);
+    font-size: 40px;
+    width: 60%;
+    max-width: max-content;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+.destinations__texto {
+    color: var(--cinza);
+    font-family: var(--fonte-rubik);
+    font-size: 18px;
+    padding-bottom: 5em;
+}
+
+.destinations__img {
+    display: flex;
+    justify-content: center;
+}
+
+.destinations__img-berlim {
+    width: 100%;
+}
+
+.destinations__botões {
+    display: flex;
+    gap: 2em;
+    margin: 5em 0;
+    justify-content: center;
+}
+
+.destinations__button {
+    border: none;
+    color: var(--branco);
+}
+
+.botão-um, .botão-dois {
+    border-radius: 12px;
+    padding: 2em 2.5em;
+}
+
+.botão-um{
+    background-color: var(--azul-escuro);
+}
+
+.botão-dois {
+    background-color: var(--laranja-salmão);
+}

@@ -1,0 +1,49 @@
+.trip-planners{
+    padding: 1em;
+    margin-bottom: 8em;
+}
+
+.trip-planners__titulo {
+    border-bottom: 3px solid var(--laranja-salmão);
+    color: var(--azul-escuro);
+    font-family: var(--fonte-playfair-display);
+    font-size: 40px;
+    width: 60%;
+    max-width: max-content;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+.trip-planners__texto {
+    color: var(--cinza);
+    font-family: var(--fonte-rubik);
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+.trip-planners__botão-img {
+    padding-bottom: 4em;
+}
+
+.trip-planners__lista__item__guided, .trip-planners__lista__item__detalhes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip-planners__img {
+    display: flex;
+    justify-content: center;
+}
+
+.trip-planners__lista__item__guided__texto {
+    font-family: var(--fonte-rubik);
+    color: var(--azul-escuro);
+    font-size: 18px;
+    padding: 1em 0;
+}
+
+.trip-planners__lista__item__titulo {
+    font-family: var(--fonte-playfair-display);
+    font-size: 28px;
+    font-weight: 600;
+}

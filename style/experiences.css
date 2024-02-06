@@ -1,0 +1,27 @@
+.experiences{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.experiences__titulo {
+    border-bottom: 3px solid var(--laranja-salmão);
+    color: var(--azul-escuro);
+    font-family: var(--fonte-playfair-display);
+    font-size: 40px;
+    width: 60%;
+    max-width: max-content;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+.experiences__texto {
+    color: var(--cinza);
+    font-family: var(--fonte-rubik);
+    font-size: 18px;
+    padding-bottom: 3em;
+}
+
+.experiences__img {
+    display: flex;
+    justify-content: center;
+}

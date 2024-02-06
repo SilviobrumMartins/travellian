@@ -1,0 +1,25 @@
+@import url("hero-section.css");
+@import url("destinations.css");
+@import url("special-offer.css");
+@import url("blog.css");
+@import url("trip-planners.css");
+@import url("gallery.css");
+@import url("experiences.css");
+@import url("newsletter.css");
+@import url("footer.css");
+
+:root {
+
+    /* FONTE */
+    --fonte-playfair-display: 'Playfair Display', serif;
+    --fonte-rubik: 'Rubik', sans-serif;
+
+    /* COR */
+    --branco: #fff;
+    --cinza: #767E86;
+    --preto: #000;
+    --laranja-salmão: #FF7757;
+    --laranja-claro: #FFE8D4;
+    --azul-escuro: #172432;
+    --creme: #FFF8F1;
+}
